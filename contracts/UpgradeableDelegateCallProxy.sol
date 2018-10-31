@@ -1,6 +1,6 @@
 pragma solidity ^0.4.23;
 
-contract UpgradeableCallProxy is ProxyAndImplementationCommon {
+contract UpgradeableDelegateCallProxy is ProxyAndImplementationCommon {
     /// @notice Deploy this proxy contract with an initial implementation
     /// @param newImplementation The recipient for all calls
     /// @dev This function may only be called be the current implementation
